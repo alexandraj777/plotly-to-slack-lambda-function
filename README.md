@@ -2,7 +2,7 @@
 
 `plotlyImageToSlack` downloads the image of a [Plotly](https://plot.ly/) chart and messages it to you via [Slack](https://slack.com/). `plotlyImageToSlack` is intended to be run as an [AWS Lambda](https://aws.amazon.com/lambda/) function.
 
-This Lambda function was created to help debug machine learning models running on EC2.
+Note: at the time of creation Plotly image previews did not load in Slack.
 
 ## Pre-reqs
 
