@@ -4,11 +4,11 @@
 
 ## Pre-reqs
 
-We assume that you are familiar with using AWS's [`boto3`](https://boto3.readthedocs.io/en/latest/) Python client, and that you have followed AWS's [instructions](http://boto3.readthedocs.io/en/latest/guide/configuration.html) to configure your AWS credentials.
+ * [boto3](https://boto3.readthedocs.io/en/latest/): We assume that you are familiar with using AWS's `boto3` Python client, and that you have followed AWS's [instructions](http://boto3.readthedocs.io/en/latest/guide/configuration.html) to configure your AWS credentials.
 
-You will need a [Plotly](https://plot.ly/) account and API token to setup the Lambda function. We assume that you are familiar with Plotly and know how to create plots (or at least retrieve URLs).
+ * [Plotly](https://plot.ly/): You will need a Plotly account and API token. If you are not already a Plotly user you can test this function with graphs from their [public feed](https://plot.ly/feed/)
 
-We also assume that you are familiar with [Slack](https://slack.com/). You will need access to a Slack channel where you would like to post your Plotly images, and a token that has permissions to post to this channel. We suggest using a [bot user](https://api.slack.com/bot-users).
+ * [Slack](https://slack.com/): You will need a Slack channel where you would like to post your Plotly images, and a token that has permissions to post to this channel. We suggest using the token from a [bot user](https://api.slack.com/bot-users).
 
 ## Quickstart
 
