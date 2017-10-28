@@ -41,6 +41,6 @@ You can debug, change environment variables, and test via the [AWS Console](cons
 
 ## Interested in Making Edits?
 
-You'll find util functions for the `lambda` and `iam` boto clients in (aws_client.py)[aws_client.py], and a script for re-packaging the Lambda function and its dependencies in (zip_for_lambda.sh)[zip_for_lambda.sh]. 
+You'll find util functions for the `lambda` and `iam` boto clients in [aws_client.py](aws_client.py), and a script for re-packaging the Lambda function and its dependencies in [zip_for_lambda.sh](zip_for_lambda.sh). 
 
 To learn more about packaging and deploying functions to Lambda, read my blog post [AWS Lambda Functions Made Easy](https://medium.com/@alexandraj777/aws-lambda-functions-made-easy-1fae0feeab27). 
